@@ -11,5 +11,5 @@ do
     echo "Creating file... $fileName"
     touch "$fileName"
     git add "$fileName"
-    git commit --date="$commitDate" --author="$name <$email>" -m "$fileName"
+#     git commit --date="$commitDate" --author="$name <$email>" -m "$fileName"
 done < dates.txt
